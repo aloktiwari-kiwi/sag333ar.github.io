@@ -4,58 +4,58 @@ Here, I've added several code snips and how tos for Objective-C programming lang
 
 ####Objective-C
 
-* [Apply Transparency to UINavigationBar in iOS](https://github.com/sag333ar/sag333ar.github.io/blob/master/ObjC/Apply%20Transparency%20to%20UINavigationBar%20in%20iOS/README.md)
-* [Change UISearchBar UIKeyboard appearance](https://github.com/sag333ar/sag333ar.github.io/blob/master/ObjC/Change%20UISearchBar%20UIKeyboard%20appearance/README.md)
-* [Convert UnixTimeStamp to NSDate](https://github.com/sag333ar/sag333ar.github.io/blob/master/ObjC/Convert%20UnixTimeStamp%20to%20NSDate/README.md)
-* [Convert data to base64 encoded string](https://github.com/sag333ar/sag333ar.github.io/blob/master/ObjC/Convert%20data%20to%20base64%20encoded%20string/README.md)
-* [Convert recent date-time to meaningful and readable format](https://github.com/sag333ar/sag333ar.github.io/blob/master/ObjC/Convert%20recent%20date-time%20to%20meaningful%20and%20readable%20format/README.md)
-* [Format a JSON String Pretty Print](https://github.com/sag333ar/sag333ar.github.io/blob/master/ObjC/Format%20a%20JSON%20String%20Pretty%20Print/README.md)
-* [Format an XML String Pretty Print](https://github.com/sag333ar/sag333ar.github.io/blob/master/ObjC/Format%20an%20XML%20String%20Pretty%20Print/README.md)
-* [Play a video within a UIView](https://github.com/sag333ar/sag333ar.github.io/blob/master/ObjC/Play%20Video%20in%20a%20UIView/README.md)
-* [How to scale UIImage to specified size?](https://github.com/sag333ar/sag333ar.github.io/blob/master/ObjC/Scale%20UImage%20to%20specified%20size/README.md)
-* [Taking screen-shot of UIWindow](https://github.com/sag333ar/sag333ar.github.io/blob/master/ObjC/Taking%20screen-shot%20of%20UIWindow/README.md)
-* [Validate an email](https://github.com/sag333ar/sag333ar.github.io/blob/master/ObjC/Validate%20an%20email/README.md)
+* [Apply Transparency to UINavigationBar in iOS](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/ObjC/Apply%20Transparency%20to%20UINavigationBar%20in%20iOS/README.md)
+* [Change UISearchBar UIKeyboard appearance](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/ObjC/Change%20UISearchBar%20UIKeyboard%20appearance/README.md)
+* [Convert UnixTimeStamp to NSDate](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/ObjC/Convert%20UnixTimeStamp%20to%20NSDate/README.md)
+* [Convert data to base64 encoded string](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/ObjC/Convert%20data%20to%20base64%20encoded%20string/README.md)
+* [Convert recent date-time to meaningful and readable format](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/ObjC/Convert%20recent%20date-time%20to%20meaningful%20and%20readable%20format/README.md)
+* [Format a JSON String Pretty Print](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/ObjC/Format%20a%20JSON%20String%20Pretty%20Print/README.md)
+* [Format an XML String Pretty Print](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/ObjC/Format%20an%20XML%20String%20Pretty%20Print/README.md)
+* [Play a video within a UIView](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/ObjC/Play%20Video%20in%20a%20UIView/README.md)
+* [How to scale UIImage to specified size?](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/ObjC/Scale%20UImage%20to%20specified%20size/README.md)
+* [Taking screen-shot of UIWindow](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/ObjC/Taking%20screen-shot%20of%20UIWindow/README.md)
+* [Validate an email](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/ObjC/Validate%20an%20email/README.md)
 
 
 ---
 
 ####Swift
 
-* [Integrate iRate in your app](https://github.com/sag333ar/sag333ar.github.io/blob/master/Swift/Integrate%20iRate%20in%20your%20app/README.md)
-* [Parse JSON Data from supplied file](https://github.com/sag333ar/sag333ar.github.io/blob/master/Swift/Parse%20JSON%20Data%20from%20supplied%20file/README.md)
-* [Show Popover in iPhone-iPad](https://github.com/sag333ar/sag333ar.github.io/blob/master/Swift/Show%20Popover%20in%20iPhone-iPad/README.md)
+* [Integrate iRate in your app](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Swift/Integrate%20iRate%20in%20your%20app/README.md)
+* [Parse JSON Data from supplied file](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Swift/Parse%20JSON%20Data%20from%20supplied%20file/README.md)
+* [Show Popover in iPhone-iPad](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Swift/Show%20Popover%20in%20iPhone-iPad/README.md)
 
 ---
 
 ###Cocoapods
 
-* [Using Cocoapods](https://github.com/sag333ar/sag333ar.github.io/blob/master/Cocoapods/Using%20cocoapods/README.md)
+* [Using Cocoapods](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Cocoapods/Using%20cocoapods/README.md)
 
 ---
 
 ####cPanel
 
-* [How to Create Git Repository on your server](https://github.com/sag333ar/sag333ar.github.io/blob/master/cPanel/How%20to%20Create%20Git%20Repository%20on%20your%20server/README.md)
-* [How to SSH connect to your shared server on mac](https://github.com/sag333ar/sag333ar.github.io/blob/master/cPanel/How%20to%20SSH%20connect%20to%20your%20shared%20server%20on%20mac/README.md)
+* [How to Create Git Repository on your server](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/cPanel/How%20to%20Create%20Git%20Repository%20on%20your%20server/README.md)
+* [How to SSH connect to your shared server on mac](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/cPanel/How%20to%20SSH%20connect%20to%20your%20shared%20server%20on%20mac/README.md)
 
 ---
 
 ####Info.plist tweaks
 
-* [App Transport Security - Unblocking all](https://github.com/sag333ar/sag333ar.github.io/blob/master/InfoPlist/App%20Transport%20Security%20-%20Unblocking%20all/README.md)
-* [Enable navigation to an iOS application using URL Scheme](https://github.com/sag333ar/sag333ar.github.io/blob/master/InfoPlist/Enable%20navigation%20to%20app%20using%20URL%20Scheme/README.md)
+* [App Transport Security - Unblocking all](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/InfoPlist/App%20Transport%20Security%20-%20Unblocking%20all/README.md)
+* [Enable navigation to an iOS application using URL Scheme](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/InfoPlist/Enable%20navigation%20to%20app%20using%20URL%20Scheme/README.md)
 
 ---
 
 ####Git 
 
-* [How to Checkout from remote URL](https://github.com/sag333ar/sag333ar.github.io/blob/master/GitCommands/How%20to%20Checkout%20from%20remote%20URL/README.md)
+* [How to Checkout from remote URL](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/GitCommands/How%20to%20Checkout%20from%20remote%20URL/README.md)
 
 ---
 
 ####Shell-scripts
 
-* [Generate app icons from 1024x1024.png image](https://github.com/sag333ar/sag333ar.github.io/blob/master/Shellscripts/Generate%20app%20icons/README.md)
+* [Generate app icons from 1024x1024.png image](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Shellscripts/Generate%20app%20icons/README.md)
 
 ---
 
@@ -83,6 +83,6 @@ Here, I've added several code snips and how tos for Objective-C programming lang
 
 ####Softwares suggestion for Mac
 
-* [Softwares suggestion from Sagar R. Kothari for Mac OS X](https://github.com/sag333ar/sag333ar.github.io/blob/master/Suggested%20softwares/README.md)
+* [Softwares suggestion from Sagar R. Kothari for Mac OS X](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Suggested%20softwares/README.md)
 
 ---

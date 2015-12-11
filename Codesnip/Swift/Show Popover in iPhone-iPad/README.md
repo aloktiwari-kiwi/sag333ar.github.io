@@ -6,19 +6,19 @@ In this readme file, I'll explain how to show pop-over on iPhone/iPad without us
 
 ***Step 1.*** Open your project & make sure you've one class from where you would like to show the pop-over and another class for the pop-over.
 
-![Example-class-names-image](https://github.com/sag333ar/sag333ar.github.io/blob/master/Swift/Show%20Popover%20in%20iPhone-iPad/Classes.png?raw=true)
+![Example-class-names-image](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Swift/Show%20Popover%20in%20iPhone-iPad/Classes.png?raw=true)
 
 ---
 
 ***Step 2.*** Open Storyboard & add a new view controller for pop-over & resize as per your need. Make sure you also apply the class name to view-controller.
 
-![Example-image-for-step-2](https://github.com/sag333ar/sag333ar.github.io/blob/master/Swift/Show%20Popover%20in%20iPhone-iPad/HowToShowPopOver-1.gif?raw=true)
+![Example-image-for-step-2](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Swift/Show%20Popover%20in%20iPhone-iPad/HowToShowPopOver-1.gif?raw=true)
 
 ---
 
 ***Step 3.*** In your view-controller, add bar-button from where you can drag & drop segue to pop-over-controller. **Make sure you give the name to the segue.**
 
-![Example-image-for-step-3](https://github.com/sag333ar/sag333ar.github.io/blob/master/Swift/Show%20Popover%20in%20iPhone-iPad/HowToShowPopOver-2.gif?raw=true)
+![Example-image-for-step-3](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Swift/Show%20Popover%20in%20iPhone-iPad/HowToShowPopOver-2.gif?raw=true)
 
 ---
 
@@ -74,4 +74,4 @@ In this readme file, I'll explain how to show pop-over on iPhone/iPad without us
 
 Example `output` is as follows.
 
-![Example output](https://github.com/sag333ar/sag333ar.github.io/blob/master/Swift/Show%20Popover%20in%20iPhone-iPad/HowToShowPopOver-3.gif?raw=true)
+![Example output](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Swift/Show%20Popover%20in%20iPhone-iPad/HowToShowPopOver-3.gif?raw=true)

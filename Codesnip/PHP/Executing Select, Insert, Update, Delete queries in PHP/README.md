@@ -2,7 +2,7 @@
 
 ---
 
-[Assuming, you're already having connection](https://github.com/sag333ar/CodeSnips/tree/master/PHP/How%20to%20connect%20to%20MySQL%20database%20in%20PHP%20using%20PDO#how-to-connect-to-mysql-database-in-php-using-pdo)
+[Assuming, you're already having connection](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/PHP/How%20to%20connect%20to%20MySQL%20database%20in%20PHP%20using%20PDO#how-to-connect-to-mysql-database-in-php-using-pdo)
 
 #####How to run select query using PDO Connection in PHP
 
@@ -59,7 +59,7 @@
 
 ---
 
-[Assuming, you're already having connection](https://github.com/sag333ar/CodeSnips/tree/master/PHP/How%20to%20connect%20to%20MySQL%20database%20in%20PHP%20using%20PDO#how-to-connect-to-mysql-database-in-php-using-pdo)
+[Assuming, you're already having connection](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/PHP/How%20to%20connect%20to%20MySQL%20database%20in%20PHP%20using%20PDO#how-to-connect-to-mysql-database-in-php-using-pdo)
 
 #####How to run Update/Insert/Delete query using PDO Connection in PHP
 
