@@ -4,7 +4,7 @@
 
 ***Step 1.*** Make sure you're aware of SSH access of your server. If you don't, please read this article.
 
-[SSH access to your server](https://github.com/sag333ar/CodeSnips/blob/master/cPanel/How%20to%20SSH%20connect%20to%20your%20shared%20server%20on%20mac/README.md)
+[SSH access to your server](https://github.com/sag333ar/sag333ar.github.io/blob/master/cPanel/How%20to%20SSH%20connect%20to%20your%20shared%20server%20on%20mac/README.md)
 
 ---
 

@@ -5,19 +5,19 @@
 
 ***Step 1.*** Login to the cPanel and then go to the SSH/Shell Access icon. Click on it to access section where you can generate the private key. 
 
-![ssh-shell-access](https://github.com/sag333ar/CodeSnips/blob/master/cPanel/How%20to%20SSH%20connect%20to%20your%20shared%20server%20on%20mac/cpanel-manage-ssh-key.png?raw=true)
+![ssh-shell-access](https://github.com/sag333ar/sag333ar.github.io/blob/master/cPanel/How%20to%20SSH%20connect%20to%20your%20shared%20server%20on%20mac/cpanel-manage-ssh-key.png?raw=true)
 
 ------
 
 ***Step 2.*** Click on the button labeled Manage SSH Keys
 
-![cPanel Manage SSH Keys](https://github.com/sag333ar/CodeSnips/blob/master/cPanel/How%20to%20SSH%20connect%20to%20your%20shared%20server%20on%20mac/cpanel-manage-ssh-key.png?raw=true)
+![cPanel Manage SSH Keys](https://github.com/sag333ar/sag333ar.github.io/blob/master/cPanel/How%20to%20SSH%20connect%20to%20your%20shared%20server%20on%20mac/cpanel-manage-ssh-key.png?raw=true)
 
 ------
 
 ***Step 3.*** Click on the button labeled Generate a new key
 
-![manage-ssh-keys](https://github.com/sag333ar/CodeSnips/blob/master/cPanel/How%20to%20SSH%20connect%20to%20your%20shared%20server%20on%20mac/manage-ssh-keys.png?raw=true)
+![manage-ssh-keys](https://github.com/sag333ar/sag333ar.github.io/blob/master/cPanel/How%20to%20SSH%20connect%20to%20your%20shared%20server%20on%20mac/manage-ssh-keys.png?raw=true)
 
 ------
 
@@ -43,7 +43,7 @@
 
 ***Step 9.*** Before we move to the Mac side of things, you should check to see if the PUBLIC key has an authorization status of NOT AUTHORIZED. Click on the Manage Authorization link. This will authorize the key for you! NOTE: If you don't authorize this key, it doesn't matter what you do on the Mac side, you won't be able to login.
 
-![key-generated-not-authorized](https://github.com/sag333ar/CodeSnips/blob/master/cPanel/How%20to%20SSH%20connect%20to%20your%20shared%20server%20on%20mac/key-generated-not-authorized.png?raw=true)
+![key-generated-not-authorized](https://github.com/sag333ar/sag333ar.github.io/blob/master/cPanel/How%20to%20SSH%20connect%20to%20your%20shared%20server%20on%20mac/key-generated-not-authorized.png?raw=true)
 
 ------
 
