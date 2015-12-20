@@ -2,6 +2,21 @@ Here, I've added several code snips and how tos for Objective-C programming lang
 
 ---
 
+####Swift
+
+* [Integrate iRate in your app](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Swift/Integrate%20iRate%20in%20your%20app/README.md)
+* [Parse JSON Data from supplied file](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Swift/Parse%20JSON%20Data%20from%20supplied%20file/README.md)
+* [Show Popover in iPhone-iPad](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Swift/Show%20Popover%20in%20iPhone-iPad/README.md)
+* [How to show Combo-box, Date-picker, Time-picker on iPhone-iPad from a Simple UITextfield?](https://github.com/sag333ar/SRKControls)
+
+---
+
+###Cocoapods
+
+* [Using Cocoapods](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Cocoapods/Using%20cocoapods/README.md)
+
+---
+
 ####Objective-C
 
 * [Apply Transparency to UINavigationBar in iOS](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/ObjC/Apply%20Transparency%20to%20UINavigationBar%20in%20iOS/README.md)
@@ -16,20 +31,6 @@ Here, I've added several code snips and how tos for Objective-C programming lang
 * [Taking screen-shot of UIWindow](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/ObjC/Taking%20screen-shot%20of%20UIWindow/README.md)
 * [Validate an email](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/ObjC/Validate%20an%20email/README.md)
 
-
----
-
-####Swift
-
-* [Integrate iRate in your app](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Swift/Integrate%20iRate%20in%20your%20app/README.md)
-* [Parse JSON Data from supplied file](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Swift/Parse%20JSON%20Data%20from%20supplied%20file/README.md)
-* [Show Popover in iPhone-iPad](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Swift/Show%20Popover%20in%20iPhone-iPad/README.md)
-
----
-
-###Cocoapods
-
-* [Using Cocoapods](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Cocoapods/Using%20cocoapods/README.md)
 
 ---
 
