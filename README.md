@@ -11,6 +11,8 @@ Here, I've added several code snips and how tos for Objective-C programming lang
 * [Convert data to Base64 string. Convert Base64 string to Data](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Swift/Convert%20data%20to%20Base64%20string.%20Convert%20Base64%20string%20to%20Data/README.md)
 * [Invoke request in one line for JSON & Data type response](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Swift/Send%20Request%20and%20parse%20JSON/README.md)
 * [Draw path between two points on google maps for iOS](https://github.com/sag333ar/sag333ar.github.io/tree/master/Codesnip/Swift/Draw%20path%20between%20two%20points%20on%20google%20maps%20for%20iOS#draw-path-between-two-points-on-google-maps-for-ios)
+* [Integrating SRKControls to use UITextfields as Date-picker and Item-picker](https://github.com/sag333ar/SRKControls/blob/master/README.md#srkcontrols)
+* [Integrating SRKUtility to use commonly used features like NSUserDefaults, Reachability, Alert-message, web-service-request etc.](https://github.com/sag333ar/SRKUtility#srkutility)
 
 ---
 
