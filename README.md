@@ -7,7 +7,6 @@ Here, I've added several code snips and how tos for Objective-C programming lang
 * [Integrate iRate in your app](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Swift/Integrate%20iRate%20in%20your%20app/README.md)
 * [Parse JSON Data from supplied file](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Swift/Parse%20JSON%20Data%20from%20supplied%20file/README.md)
 * [Show Popover in iPhone-iPad](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Swift/Show%20Popover%20in%20iPhone-iPad/README.md)
-* [How to show Combo-box, Date-picker, Time-picker on iPhone-iPad from a Simple UITextfield?](https://github.com/sag333ar/SRKControls)
 * [Convert data to Base64 string. Convert Base64 string to Data](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Swift/Convert%20data%20to%20Base64%20string.%20Convert%20Base64%20string%20to%20Data/README.md)
 * [Invoke request in one line for JSON & Data type response](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Swift/Send%20Request%20and%20parse%20JSON/README.md)
 * [Draw path between two points on google maps for iOS](https://github.com/sag333ar/sag333ar.github.io/tree/master/Codesnip/Swift/Draw%20path%20between%20two%20points%20on%20google%20maps%20for%20iOS#draw-path-between-two-points-on-google-maps-for-ios)
