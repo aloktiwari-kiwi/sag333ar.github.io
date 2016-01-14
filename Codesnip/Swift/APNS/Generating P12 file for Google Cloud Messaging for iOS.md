@@ -10,11 +10,11 @@
 
 ***Step 4***. Provide `app name` and make sure your specify `Explicit APP ID` only. In following screen-shot `com.sagarrkothari.sampleapp` is sample one
 
-![Sample image](http://google.com)
+![Explicit_APP_ID](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Swift/APNS/Explicit_APP_ID.png?raw=true)
 
 ***Step 5***. Under `App Services` section, please make sure to enable `Push Notifications` as indicated below.
 
-![Sample image](http://google.com)
+![Push Notifications](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Swift/APNS/Push_notification.png?raw=true)
 
 ***Step 6***. Click `Continue`.
 
@@ -26,11 +26,11 @@
 
 ***Step 10***. Click on `Edit`.
 
-![Sample image](http://google.com)
+![Edit Application ID](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Swift/APNS/Edit_notification.png?raw=true)
 
 ***Step 11.*** Scroll until the screen depicted as follows don't appear. Mostly it would be at the end of page.
 
-![Sample image](http://google.com)
+![Scroll to end](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Swift/APNS/scroll_to_push_notification.png?raw=true)
 
 ***Step 12.*** Click on `Create Certificate` for `Dev/Production` as per your need.
 
@@ -38,15 +38,15 @@
 
 ***Step 14.*** In `Keychain access`, open `Keychain access` menu & select the option as shown below.
 
-![Sample image](http://google.com)
+![Keychain Request](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Swift/APNS/keychain_request.png?raw=true)
 
 ***Step 15.*** Enter email id & choose option `saved to disk` (`DO NOT` tick on let me specify key pair info)
 
-![Sample image](http://google.com)
+![Keychain save CertificateSigningRequest](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Swift/APNS/keychain_create.png?raw=true)
 
 ***Step 16.*** Click continue & save the file(`CertificateSigningRequest.certSigningRequest`) on desktop.
 
 ***Step 17.*** Go back to browser & click on `Continue` & upload `CertificateSigningRequest.certSigningRequest` file.
 
-![Sample image](http://google.com)
+![Keychain save CertificateSigningRequest](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Swift/APNS/upload_request.png?raw=true)
 
