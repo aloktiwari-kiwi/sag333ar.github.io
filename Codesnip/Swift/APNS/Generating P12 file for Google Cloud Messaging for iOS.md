@@ -50,3 +50,8 @@
 
 ![Keychain save CertificateSigningRequest](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Swift/APNS/upload_request.png?raw=true)
 
+***Step 18.*** Download the certificate. Double click on downloaded certificate. Go to key-chain, select added certificate along with private key as shown below.
+
+![Export to p12](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Swift/APNS/export_to_p12.png?raw=true)
+
+***Step 19.*** Now, Right click on PrivateKey+Certificate & export it as `.p12`
