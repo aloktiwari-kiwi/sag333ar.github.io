@@ -4,7 +4,7 @@
 
 ***Step 2***. Open `Certificates, Identifiers & Profiles`
 
-![Sample image](http://google.com)
+![Certificates, Identifiers & Profiles](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Swift/APNS/Certificates_Identifiers_Profiles.png?raw=true)
 
 ***Step 3***. Click on `Identifiers` & Click on `+` on top-right corner to `add application identifier`
 

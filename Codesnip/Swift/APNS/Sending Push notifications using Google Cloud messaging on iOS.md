@@ -12,7 +12,7 @@
 
 ***Step 5.*** Do as shown in the following `gif` file.
 
-![Enable Cloud messaging.gif](http://www.google.com)
+![Enable Cloud messaging.gif](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Swift/APNS/Enable%20Cloud%20messaging.gif?raw=true)
 
 ***Step 6.*** As Shown in the last step in above image, You would need dev-certification-p12 & production-certifcate-p12 for specific app-id.
 So, [Click here to view detailed article for that.](http://google.com)
