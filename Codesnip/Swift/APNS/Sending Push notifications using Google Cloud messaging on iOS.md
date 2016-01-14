@@ -35,6 +35,17 @@ So, [Click here to view detailed article for that.](https://goo.gl/v7j7SL)
 class AppDelegate: UIResponder, UIApplicationDelegate, GGLInstanceIDDelegate, GCMReceiverDelegate {
 ```
 
+and make sure that you've following `variables` defined under `window?` object.
+
+```Swift
+	// GCM
+	var connectedToGCM = false
+	var subscribedToTopic = false
+	var gcmSenderID: String?
+	var registrationToken: String?
+	var registrationOptions = [String: AnyObject]()
+```
+
 ***Step 11.*** Update `didFinishLaunchingWithOptions` method as follows.
 
 ```Swift
@@ -61,3 +72,114 @@ func application(application: UIApplication, didRegisterForRemoteNotificationsWi
 	GGLInstanceID.sharedInstance().tokenWithAuthorizedEntity(gcmSenderID, scope: kGGLInstanceIDScopeGCM, options: registrationOptions, handler: registrationHandler)
 }
 ```
+
+***Step 13.*** Update `didReceiveRemoteNotification` method as follows.
+
+```Swift
+func application( application: UIApplication, didReceiveRemoteNotification userInfo: [NSObject : AnyObject]) {
+		print("Notification received: \(userInfo)")
+		GCMService.sharedInstance().appDidReceiveMessage(userInfo)
+		UIApplication.sharedApplication().applicationIconBadgeNumber = UIApplication.sharedApplication().applicationIconBadgeNumber + 1
+}
+```
+
+***Step 14.*** Update `didReceiveRemoteNotification userInfo:fetchCompletionHandler:` method as follows.
+
+```Swift
+func application(application: UIApplication, didReceiveRemoteNotification userInfo: [NSObject : AnyObject], fetchCompletionHandler handler: (UIBackgroundFetchResult) -> Void) {
+		print("Notification received: \(userInfo)")
+		GCMService.sharedInstance().appDidReceiveMessage(userInfo);
+		UIApplication.sharedApplication().applicationIconBadgeNumber = UIApplication.sharedApplication().applicationIconBadgeNumber + 1
+}
+```
+
+***Step 15.*** Update `didFailToRegisterForRemoteNotificationsWithError` method as follows.
+
+```Swift
+func application(application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: NSError) {
+	print("Handle error")
+}
+```
+
+***Step 16.*** Add following methods to your `AppDelegate.swift`
+
+```Swift
+func registrationHandler(registrationToken: String!, error: NSError!) {
+	if (registrationToken != nil) {
+		self.registrationToken = registrationToken
+		print("Registration Token: \(registrationToken)")
+	} else {
+		print("Registration to GCM failed with error: \(error.localizedDescription)")
+	}
+}
+
+func onTokenRefresh() {
+	GGLInstanceID.sharedInstance().tokenWithAuthorizedEntity(gcmSenderID, scope: kGGLInstanceIDScopeGCM, options: registrationOptions, handler: registrationHandler)
+}
+func willSendDataMessageWithID(messageID: String!, error: NSError!) {
+	if (error != nil) {
+		// Failed to send the message.
+	} else {
+		// Will send message, you can save the messageID to track the message
+	}
+}
+
+func didSendDataMessageWithID(messageID: String!) {
+
+}
+
+func didDeleteMessagesOnServer() {
+
+}
+```
+
+***Step 17.*** Update `applicationDidEnterBackground` & `applicationDidBecomeActive` method as follows.
+
+```Swift
+func applicationDidEnterBackground(application: UIApplication) {
+	GCMService.sharedInstance().disconnect()
+	self.connectedToGCM = false
+}
+
+func applicationDidBecomeActive(application: UIApplication) {
+	GCMService.sharedInstance().connectWithHandler({
+		(NSError error) -> Void in
+		if error != nil {
+			print("Could not connect to GCM: \(error.localizedDescription)")
+		} else {
+			self.connectedToGCM = true
+			print("Connected to GCM")
+		}
+	})
+}
+```
+
+***Step 18.*** Run the project in iOS Device. From the log, look for `"Registration Token: ` text. Copy Token & generate request as follows.
+
+**URL** : `https://gcm-http.googleapis.com/gcm/send`
+
+**Headers** 
+
+1. `Content-Type` : `application/json`
+2. `Authorization` : `key=MY_SERVER_KEY` generated from https://console.developers.google.com/home/dashboard?project=YOUR_PROJECT
+
+**MEHOTD** : `POST`
+
+**BODY** : as follows
+
+```json
+{
+  "to" : "l5ERMbNVd_U:APA91bFjOXoXZb01C-lEppOXXDGSRUnd0ZmJFahaeeoN6QoGc7p4wErWKSOB4nYhLePotUUBxuAxUSxz5U1IB_s9MHjLNl5QAtq1B3ii7VYOWV8Yjd0smAeo2XW7_YDlEM8K8guPEjME",
+  "data" : {
+    "message" : "great match!",
+    "action" : "display",
+     "title" : "Alert from SKothari", 
+     "deviceType" : "IOS" 
+    },
+   "notification" : {
+   	"body" : "Hello from GCM"
+   }
+}
+```
+
+![Sample usecase from DHC](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Swift/APNS/sample_usecase_from_dhc.png?raw=true)
