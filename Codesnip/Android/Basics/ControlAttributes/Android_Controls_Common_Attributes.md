@@ -73,3 +73,16 @@ Supported by API 17 or above
 
 * `android:layout_marginStart="10dp"` will apply margin to **Start** corners of Android control. ( I believe, Left & Top )
 * `android:layout_marginEnd="10dp"` will apply margin to **End** corners of Android control. ( I believe, Right & Bottom )
+
+######5. Apply text size
+
+* `android:textSize="20dp"` is not recommended at all. Always use SP for fonts.
+* `android:textSize="20sp"` is always recommended. Based on user's font display settings font-size will be adjusted.
+
+* Using system defined font sizes/styles
+* `android:textSize="?android:textAppearanceLarge"`
+* `android:textSize="?android:textAppearanceButton"`
+* `android:textSize="?android:textAppearanceListItem"`
+* `android:textSize="?android:textAppearanceListItemSeconday"`
+* `android:textSize="?android:textAppearanceListItemSmall"`
+* `android:textSize="?android:textAppearanceMedium"` etc.
