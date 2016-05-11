@@ -87,3 +87,16 @@ Using system defined font sizes/styles
 * `android:textSize="?android:textAppearanceListItemSeconday"`
 * `android:textSize="?android:textAppearanceListItemSmall"`
 * `android:textSize="?android:textAppearanceMedium"` etc.
+
+######6. Changing background color & text color
+
+* `android:background="@android:color/darker_gray"`
+* `android:background="#ce93d8"`
+* `android:textColor="#4a148c"`
+* `android:textColor="@android:color/darker_gray"`
+
+######7. Changing text style Bold / Italic 
+
+* `android:textStyle="bold"`
+* `android:textStyle="italic"`
+* `android:textStyle="bold|italic"`
