@@ -3,6 +3,7 @@
 ---
 
 ####### Exercise output
+
 ![Exercise1 Linear Layout With Weight](https://github.com/sag333ar/sag333ar.github.io/blob/master/Android/Basics/Exercises/Exercise1_LinearLayoutWithWeight.png?raw=true)
 
 ```xml
