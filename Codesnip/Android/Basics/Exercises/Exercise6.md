@@ -9,7 +9,7 @@
 
 Also, resources used are as follows.
 
-* ![applications_icon](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Android/Basics/Exercises/applications_icon.png?raw=true)
+* ![applications_icon](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Android/Basics/Exercises/applications_icon.jpg?raw=true)
 * ![google_logo](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Android/Basics/Exercises/google_logo.png?raw=true)
 * ![notifications_icon](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Android/Basics/Exercises/notifications_icon.png?raw=true)
 * ![profile_picture](https://github.com/sag333ar/sag333ar.github.io/blob/master/Codesnip/Android/Basics/Exercises/profile_picture.png?raw=true)
