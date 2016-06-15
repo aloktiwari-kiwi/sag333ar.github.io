@@ -11,7 +11,8 @@ let data:NSData? = NSData(contentsOfFile: str!)
 // try to parse the data in form of json		
 do {
   // if json-data parsed
-  let jsonData:AnyObject? = try NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.AllowFragments)
+  let jsonData:AnyObject? = try NSJSONSerialization.JSONObjectWithData
+                              (data!, options: NSJSONReadingOptions.AllowFragments)
 
   // and if parsed json-data is an array
   if let arrayData:NSArray = jsonData as? NSArray {
